@@ -1,28 +1,44 @@
 # In Class: JavaScript Map/This/More Objects
 
-1. Use ```.map``` to take the code from the array below, and results in a new array where each value is 5 more than it was in the old array.
+1. Use ```.map``` to take the code from the array below, and place the results in a new array where each value is 5 more than it was in the old array. Print the new array.
 
 ```
-var arr = [1, 2, 3, 4];
-var plus5 = [];
+let arr = [1, 2, 3, 4];
+let plus5 = []; // new array to hold result
 ```
 
-Print the new array.
-
-2. Use ```.map``` to create a new array of objects where each object has a property for ```index``` and ```value``` based on the elements in the array ```let arr = [1,2,3,4];```.
-
-Print the new array.
-
-3. Write a function ```capitalize``` that takes a string and uses ```.map``` to return the same string in all caps. 
-
-ex. ```capitalize('whoop') // => 'WHOOP'```
-ex. ```capitalize('boy howdy!') // => "BOY HOWDY!"```
+2. Use ```.map``` to create a new array of objects where each object has a property for ```index``` and ```value``` based on the elements in the array. Print the new array of objects.
 
 ```
-var capitalize = function(string){
-  // code code code!
+let arr = [1, 2, 3, 4];
+let num_objects = []; // new array to hold objects
+```
+
+Example Object to Return:
+```
+{
+  index: 1,
+  value: 2
 }
+
 ```
+
+3. Use ```.reduce``` to return the sum of all the numbers, each multiplied by 2. Print the final sum value.
+
+```
+let arr = [1, 2, 3, 4];
+let nums_doubled_sum = []; // new variable assign the final sum
+```
+
+
+4. Use ```.filter``` to return a new array that contains only the even numbers. Print the new array.
+
+```
+let arr = [1, 22, 35, 40, 60, 2, 8, 100, 600, 3, 99, 71];
+let even_vals = []; // new array to hold result
+```
+
+
 
 
 
