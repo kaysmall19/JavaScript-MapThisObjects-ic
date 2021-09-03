@@ -38,7 +38,15 @@ let arr = [1, 22, 35, 40, 60, 2, 8, 100, 600, 3, 99, 71];
 let even_vals = []; // new array to hold result
 ```
 
+5. Use ```map``` to take an array of names and return a new array that contains instances of objects you instantiated from the class below
 
+```
+class Student{
+        constructor(name){
+                this.name = name;
+        }
+}
+```
 
-
+Iterate through the array returned using ```forEach``` and print the name property from each object instance in the array.
 
