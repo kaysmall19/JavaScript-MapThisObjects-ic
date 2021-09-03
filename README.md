@@ -1,4 +1,4 @@
-# In Class: JavaScript Map/This/More Objects
+# In Class: JavaScript Higher Order Functions and forEach
 
 1. Use ```.map``` to take the code from the array below, and place the results in a new array where each value is 5 more than it was in the old array. Print the new array.
 
